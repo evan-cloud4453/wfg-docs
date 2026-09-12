@@ -13,6 +13,18 @@ wfg-docs/
 └── docs/           # 기획 및 설계 문서
 ```
 
+## 브랜치 전략
+
+- `main` — 최종 확정 문서
+- 작업 시 브랜치를 따서 작업 후 PR로 main에 머지
+
+```bash
+git checkout -b docs/작업내용
+# 작업
+git push origin docs/작업내용
+# GitHub에서 PR 생성 → main에 머지
+```
+
 ## 관련 저장소
 
 | 저장소 | 설명 |
