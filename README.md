@@ -19,7 +19,9 @@ wfg-docs/
 - 작업 시 브랜치를 따서 작업 후 PR로 main에 머지
 
 ```bash
-git checkout -b docs/작업내용
+git checkout main
+git pull origin main           # 최신 main 당기기
+git checkout -b docs/작업내용  # 브랜치 생성
 # 작업
 git push origin docs/작업내용
 gh pr create --base main
