@@ -22,7 +22,8 @@ wfg-docs/
 git checkout -b docs/작업내용
 # 작업
 git push origin docs/작업내용
-# GitHub에서 PR 생성 → main에 머지
+gh pr create --base main
+# GitHub에서 머지
 ```
 
 ## 관련 저장소
